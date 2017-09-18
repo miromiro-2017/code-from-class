@@ -1,0 +1,19 @@
+Hello, {{contact.name}}!
+
+<p>
+Hobbies:
+<ul>
+  {{#each this.contact.hobbies}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+<div>
+  Is over 25: 
+  {{#if contact.overTwentyFive}}
+  yep
+  {{else}}
+  nope
+  {{/if}}
+</div>
+</p>
