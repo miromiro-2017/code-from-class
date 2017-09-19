@@ -2,6 +2,7 @@ var express = require('express')
 var hbs = require('express-handlebars')
 
 var routes = require('./routes')
+var adminRoutes = require('./admin-routes')
 var art = require('./art.json')
 
 var app = express()
@@ -15,4 +16,5 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'))
 
 // Routes
-app.get('/', routes.getHome)
+app.use('/admin', adminRoutes)
+app.use('/', routes)
