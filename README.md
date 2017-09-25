@@ -5,3 +5,4 @@
 * Week 2, Tuesday: [Server-side rendering](server-side-rendering)
 * Week 2, Wednesday: [Express router](express-router)
 * Week 2, Wednesday: [Testing routes](testing-routes)
+* Week 3, Monday: [Promises](promises)
