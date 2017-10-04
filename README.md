@@ -10,3 +10,4 @@
 * Week 4, Monday: [React classes](react-paws-for-effect)
 * Week 4, Tuesday: [React state](react-state)
 * Week 4, Wednesday: [React routing](react-routing)
+* Week 4, Thursday: [Forms demo](forms-demo)
